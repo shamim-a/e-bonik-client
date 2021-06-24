@@ -18,10 +18,10 @@ if (!firebase.apps.length) {
 
 // Sign in using email and password 
 const Login = () => {
-    const [setLoggedInUser] = useContext(UserContext);
+    const [loggedInUser ,setLoggedInUser] = useContext(UserContext);
     const history = useHistory();
     const location = useLocation();
-    // console.log(loggedInUser);
+    console.log(loggedInUser);
 
     // if only password and confirmed password matched then an user account created
 
