@@ -1,0 +1,32 @@
+.main-card {
+    width: 20rem;
+    opacity: 0.8;
+    cursor: pointer;
+    transition: all 500ms;
+}
+.card{
+    background-color: #f9fff2;
+    border-radius: 10px;
+}
+.main-card:hover {
+    opacity: 1;
+    
+}
+.cardBtn{
+    background-color: #ff9f22;
+}
+.main-card img {
+    height: 10rem;
+    border-radius: 8px;
+}
+
+.card-title {
+    text-transform: uppercase;
+}
+@media (max-width:576px){
+    .main-card {
+        margin: 0 auto;
+        float: none;
+        margin-bottom: 10px; 
+    }
+}

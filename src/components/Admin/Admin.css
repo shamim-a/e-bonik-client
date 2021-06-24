@@ -1,0 +1,21 @@
+#left {
+    background-color: #584a3ded;
+    color: #ffffff;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.product-btn {
+    display: block;
+    color: seashell;
+    width: 100%;
+    margin: 10px auto;
+}
+.product-btn:hover {
+    background-color: #ffd2a8fd;
+}
+
+#right {
+    width: 100%;
+}

@@ -1,0 +1,20 @@
+.product-table-container {
+    background-color: #494949e7;
+}
+.edit-icon, .delete-icon {
+    margin: 5px;
+}
+.edit-icon {
+    color: palegoldenrod;
+}
+.delete-icon {
+    color: #be3737;
+}
+.edit-icon:hover {
+    cursor: pointer;
+    color: whitesmoke;
+}
+.delete-icon:hover {
+    cursor: pointer;
+    color: #f5120aed;
+}
